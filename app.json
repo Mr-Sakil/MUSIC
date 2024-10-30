@@ -1,5 +1,5 @@
 {
-    "name": "BADMUSIC",
+    "name": "MUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://envs.sh/SY-.jpg",
     "keywords": [
@@ -76,7 +76,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Badhacker98/BADMUSIC",
+        "value": "",
         "required": true
       },
       "UPSTREAM_BRANCH": {
