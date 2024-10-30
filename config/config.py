@@ -10,20 +10,20 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "21911172"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "22fee9fa813e7254521310ae5fe000d2")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5799143538:AAGZqZUIzAvuENnaS7IEgc_YRq20exLUjms")
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
 TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "False")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 DB_NAME = "badDB"
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&w=majority")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -48,7 +48,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Badhacker98/BADMUSIC_PLUGIN",
+    "https://github.com/Mr-Sakil/BADMUSIC_PLUGIN",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -65,12 +65,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002047838773"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7009601543").split())
+    map(int, getenv("OWNER_ID", "6751954799 6024212623").split())
 )  # Input type must be interger
 
 
@@ -91,7 +91,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Badhacker98/BADMUSIC",
+    "https://github.com/Mr-Sakil/MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Bad")
 
@@ -104,14 +104,14 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/HEROKUBIN_01"
+    "SUPPORT_CHANNEL", "https://t.me/Vip_Sakil_Bio"
 )  # Example:- https://t.me/HEROKUBIN_01
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/FellingThroughShayari"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/FellingThroughShayari"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -134,7 +134,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Badhacker98/BADMUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Vip_Sakil_Bio")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -174,7 +174,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFENi0AxFFbe2V9wiPansr7gMyr2Zvxa-Qb81wvkXpykTadSYFP-e5okDPejzcqKEfk-HYxju2uHDKptC-CkNx-5WPffCoqwbNq_zrIu2wfUwVtYhu57gkRI5UksOfLVLIcKtwbgUR9ROArD1SL6ibvBMFXc5wc_jPJOuO61HGswHZAFfUqZy5A-nWYWKlFU9N-8RUsslrdZehLRg9vNlwHZ5xqF67ab-i9wfdMwTabwDG4CfJI-WJ5Aq8mkqA2256tdWCh55IdFEicimWsOPa4L4S6d0rfESVMDfftKryo861MlNOny9XEdmsUbHAygGMfeen19Gvs5QlQO6uc1FHOu65jJAAAAAFjRZcLAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -199,7 +199,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WZE.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 UC_IMG_URL = getenv(
@@ -209,7 +209,7 @@ UC_IMG_URL = getenv(
 
 BOT_IMG_URL = getenv(
     "BOT_IMG_URL",
-    "https://envs.sh/SY-.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 PING_IMG_URL = getenv(
