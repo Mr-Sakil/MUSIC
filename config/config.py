@@ -16,7 +16,10 @@ API_HASH = getenv("API_HASH", "22fee9fa813e7254521310ae5fe000d2")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5799143538:AAGZqZUIzAvuENnaS7IEgc_YRq20exLUjms")
+BOT_TOKEN = getenv("BOT_TOKEN", "5799143538:AAH3K3gaECvMpfw3KG0yKwUwti_uQomeubw")
+
+# Bot id
+BOT_ID = int(getenv("BOT_ID", "5799143538"))
 
 # Token allow for access youtube songs. [ True = use token data, False = use cookies ]
 TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "False")
@@ -25,6 +28,8 @@ TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "False")
 DB_NAME = "badDB"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&w=majority")
 
+# Time zone (india)
+TIME_ZONE = "Asia/Kolkata"
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "18000")
@@ -204,7 +209,7 @@ START_IMG_URL = getenv(
 
 UC_IMG_URL = getenv(
     "UC_IMG_URL",
-    "https://envs.sh/pMb.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 BOT_IMG_URL = getenv(
